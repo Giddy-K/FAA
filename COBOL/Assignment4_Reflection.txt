@@ -1,0 +1,15 @@
+Assignment 4: Reflection & Prediction
+Gideon
+July 01, 2026
+
+What was your biggest challenge in the morning lesson?
+
+My biggest challenge this morning was adjusting to COBOL's rigid, verbose syntax after years of working in more terse, modern languages like Python, Dart, and TypeScript. The column-sensitive formatting (Area A vs Area B), the strict division structure (IDENTIFICATION, DATA, PROCEDURE), and the requirement to explicitly declare fixed-width fields like PIC X(20) felt like a step back in ergonomics -- but I quickly realized that rigidity is the point. COBOL was built for environments where predictability and auditability matter more than developer convenience, which is a different value system than the one I'm used to optimizing for.
+
+What surprised you about COBOL?
+
+What surprised me most was how deliberate everything is. Watching MOVE 'Gideon' TO MY-NAME silently pad the field with trailing spaces because of the fixed PIC X(20) declaration was a small but clarifying moment -- it made visible something that modern dynamically-typed languages usually hide from you entirely. It also reframed how I think about the COBOL systems I've read about running inside banks and tax agencies: that same rigidity is exactly why a 50-year-old program can still run unattended in production, processing millions of transactions, without the kind of silent type coercion bugs that plague looser languages.
+
+What would you like to learn next?
+
+Going forward, I'd like to learn more about the DATA DIVISION in depth -- specifically how COBOL handles structured records, tables (OCCURS clauses), and file I/O, since that's where the real complexity of legacy banking and government systems lives. I'm also curious how COBOL programs interface with modern systems in practice (via APIs, message queues, or middleware), since that bridge between "COBOL core" and "modern edge" is where most real-world modernization work -- and probably most of the interesting security research -- actually happens.

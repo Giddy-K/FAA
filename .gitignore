@@ -1,0 +1,10 @@
+# Course reading materials (instructor-provided slides/notes, not original work)
+*.pptx
+*.docx
+
+# Screenshots of course instructions/slides (not your own program output)
+Python/WK1/HomeWork/Day2/Task 2 (1).png
+Python/WK2/HomeWork/Day1/Lab 2.png
+
+# Compiled build artifacts
+*.exe

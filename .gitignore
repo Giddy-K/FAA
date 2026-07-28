@@ -1,6 +1,7 @@
 # Course reading materials (instructor-provided slides/notes, not original work)
 *.pptx
 *.docx
+*.txt
 
 # Screenshots of course instructions/slides (not your own program output)
 Python/WK1/HomeWork/Day2/Task 2 (1).png

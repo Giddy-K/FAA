@@ -9,3 +9,6 @@ Python/WK2/HomeWork/Day1/Lab 2.png
 
 # Compiled build artifacts
 *.exe
+
+# Standalone Django project with its own git repo (see portfolio_project/.git)
+Python/WK5/Homework/Assignment2/
